@@ -1,0 +1,61 @@
+body {
+				background-image: url("images/wrapper.jpg");
+				background-attachment: fixed;
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+        
+			#wrapper {
+				height:1500px;
+				width: 960px;
+				margin: 0 auto;
+				background-color:white;
+				opacity:0.9;
+				color:black;
+				font-family: "Times New Roman", serif;
+				font-size:17px;
+			}
+			
+			#header {
+				height:100px;
+			}
+			
+			#logo {
+				padding-left:200px;
+			}
+			
+			#name {
+				 font-family: "Georgia", serif;
+				 font-style: italic;
+				 color:black;
+				 text-decoration: underline;
+			}
+			
+			#navi {
+				margin-left:10px;
+				margin-right:10px;
+			}
+			
+			#spelltest {
+				padding-top:20px;
+				border:1px solid black;
+				height:1100px;
+				margin-right:20px;
+				float:right;
+			
+			}
+			
+			.links{
+				margin:40px;
+				text-decoration:none;
+				color:blue;
+				font-size:20px;
+			}
+			
+			#footer{
+				font-weight:bold;
+				padding-left:250px;
+				padding-top:50px;
+				font-family: "Georgia", serif;
+				font-size:20px;
+			}

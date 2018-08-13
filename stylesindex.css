@@ -1,0 +1,63 @@
+body {
+				background-image: url("images/wrapper.jpg");
+				background-attachment: fixed;
+				background-size: cover;
+				background-repeat: no-repeat;
+				
+			}
+        
+			#wrapper {
+				height:700px;
+				width: 960px;
+				margin: 0 auto;
+				background-color:white;
+				opacity:0.9;
+			}
+			
+			#header {
+				height:100px;
+			}
+			
+			#logo {
+				padding-left:200px;
+			}
+			
+			#name {
+				 font-family: "Georgia", serif;
+				 font-style: italic;
+				 color:black;
+				 text-decoration: underline;
+				 color:Black;
+			}
+			
+			#navi {
+				margin-left:5px;
+				margin-right:5px;
+			}
+			
+					
+			#carla{
+				padding-top:100px;
+			}
+			#main {
+				border:1px solid black;
+				height:400px;
+				margin-right:20px;
+				float:right;
+			
+			}
+			
+			#content1{
+				margin-top:30px;
+				font-family: "Times New Roman", serif;
+				font-size:20px;
+				color:black;
+			}
+			
+			#footer{
+				font-weight:bold;
+				padding-left:250px;
+				padding-top:50px;
+				font-family: "Georgia", serif;
+				font-size:20px;
+			}

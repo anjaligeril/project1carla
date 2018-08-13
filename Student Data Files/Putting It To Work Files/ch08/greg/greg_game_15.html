@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>Greg's Gambits | Greg's 15</title>
+<link href="greg.css" rel="stylesheet" type="text/css" />
+<script type = "text/javascript">
+	//declare and initialize variables
+	function setup()
+	{
+
+	// create function to load array and call placeNumbers()
+
+	}
+	function placeNumbers()
+	{
+
+	// create function to place random numbers in the cells
+
+	}
+	function doClick(row, col)
+	{
+
+	// create the function that will check, each time a cell is clicked, if
+	// the move is legal and will, if it is not legal, display an alert
+	// if the move is legal, the function should call the swap() function
+	// it should also check to see if this move is a winner, i.e., call checkWinner()
+
+	}
+	function swap(firstCell, secondCell)
+	{
+	// create function to swap values
+
+	}
+	function checkWinner()
+	{
+
+	// create function to check if the last move made makes this a win
+	// display winning message if it is a winner
+	}
+</script>
+</head>
+<body onload ="setup()">
+<div id="container">
+<img src="images/superhero.jpg" class="floatleft" />
+<h1 id="logo"><em>Greg's 15</em></h1>
+<p>&nbsp;</p>
+<div id="nav">
+  <p><a href="index.html">Home</a>
+  <a href="greg.html">About Greg</a>
+  <a href="play_games.html">Play a Game</a>
+  <a href="sign.html">Sign In</a>
+  <a href="contact.html">Contact Us</a></p>
+</div>
+<div id="content">
+<p><input type="button" value = "Start the game" onclick="setup();" /></p>
+<p>You can move any number into an empty spot by moving up, down,right, or left. Diagonal moves are not allowed. The object is to get all the numbers into correct order, from 1 through 15 with the empty space at the end. </p>
+<table width = "60%" align = "center">
+
+<!-- create the 4 X 4 table with a call, in each cell, to the doClick(x,x) function -->
+
+</table>
+</div>
+<div id="footer">Copyright &copy; 2013 Greg's Gambits<br />
+<a href="mailto:yourfirstname@yourlastname.com">
+yourfirstname@yourlastname.com</a></div>
+</div>
+</body></html>

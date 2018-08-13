@@ -1,0 +1,71 @@
+
+			body {
+				background-image: url("images/wrapper.jpg");
+				background-attachment: fixed;
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+        
+			#wrapper {
+				height:700px;
+				width: 960px;
+				margin: 0 auto;
+				background-color:white;
+				opacity:0.9;
+				color:black;
+				font-family: "Times New Roman", serif;
+				font-size:17px;
+			}
+			
+			#header {
+				height:100px;
+			}
+			
+			#logo {
+				padding-left:200px;
+			}
+			
+			#name {
+				 font-family: "Georgia", serif;
+				 font-style: italic;
+				 color:black;
+				 text-decoration: underline;
+			}
+			
+			#navi {
+				margin-left:10px;
+				margin-right:10px;
+			}
+			
+			#dataentry {
+				border:1px solid black;
+				height:400px;
+				margin-right:20px;
+				float:right;
+			
+			}
+			
+			#girl{
+				padding-top:20px;
+			}
+			
+			#boy{
+				padding-top:300px;
+			}
+			
+			#data{
+				padding-top:50px;
+			}
+			
+			#name1{
+				padding-top:10px;
+			}
+			
+			#footer{
+				font-weight:bold;
+				padding-left:250px;
+				padding-top:50px;
+				font-family: "Georgia", serif;
+				font-size:20px;
+			}
+	
